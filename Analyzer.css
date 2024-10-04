@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 200px; /* Fixed height for the graph area */
+    border: 1px solid #007BFF;
+    overflow: hidden; /* Hide overflow */
+}
+
+.bar {
+    width: 30px;
+    background-color: #007BFF;
+    margin: 0 2px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.algorithm-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.algorithm-info {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    background-color: #ffffff;
+}

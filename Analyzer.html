@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Analyzer</title>
+    <link rel="stylesheet" href="Analyzer.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Analyzer</h1>
+        <div class="input-area">
+            <input type="number" id="numberInput" placeholder="Enter a number" />
+            <button id="addValue">Add Value</button>
+        </div>
+        <div class="array-container" id="array-container"></div>
+        <div class="algorithm-selection">
+            <h2>Select Sorting Algorithm:</h2>
+            <label>
+                <input type="radio" name="algorithm" value="bubbleSort" checked> Bubble Sort
+            </label>
+            <label>
+                <input type="radio" name="algorithm" value="insertionSort"> Insertion Sort
+            </label>
+            <label>
+                <input type="radio" name="algorithm" value="selectionSort"> Selection Sort
+            </label>
+            <label>
+                <input type="radio" name="algorithm" value="mergeSort"> Merge Sort
+            </label>
+            <label>
+                <input type="radio" name="algorithm" value="quickSort"> Quick Sort
+            </label>
+            <label>
+                <input type="radio" name="algorithm" value="heapSort"> Heap Sort
+            </label>
+            <button id="sort">Sort</button>
+        </div>
+        <div class="algorithm-info" id="algorithm-info"></div>
+    </div>
+    <script src="Analyzer.js"></script>
+</body>
+</html>
